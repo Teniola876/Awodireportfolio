@@ -1,0 +1,45 @@
+.top-section{
+    width: 90%;
+    margin: 5%;
+    border: 2px solid red;
+    height:  200px;
+}
+
+.middle-section{
+    width:45%;
+    height: 350px;
+    border: 2px solid blue;
+    margin: 5%;
+}
+
+.section{
+    width:45%;
+height: 300px;
+border: 2px solid black;
+margin: 5%;
+}
+.ms{
+    display: flex;
+    
+}
+
+.bottom-section{
+    width:30%;
+    height: 200px;
+    border: 2px solid yellow;
+    margin: 5%;
+}
+
+.footer{
+    width: 60%;
+    height:200px ;
+    margin: 5%;
+    border: 2px solid violet;
+}
+
+.bs{
+    display: flex;
+}
+.parent{
+    color:chocolate
+}

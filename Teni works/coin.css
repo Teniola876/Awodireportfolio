@@ -1,0 +1,397 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 13px;
+}
+
+.logo img{
+width: 38px;
+}
+.token button{
+    border: 2px solid white ;
+    text-transform:capitalize;
+    margin-top: 20px;
+  background-color: lightskyblue;
+  color: white;
+    padding: 10px;
+   
+}
+
+.Sales{
+    font-size: 20px;
+}
+
+.token{
+    font-size: 30px;
+    color: white;
+    height: 500px;
+}
+
+.imgs{
+    background-color:lightskyblue;
+    display: flex;
+    gap: 50px;
+    margin: 40px;
+}
+
+.imgs img{
+    width: 600px;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+.Contact{
+    background-color:white;
+    display: flex;
+    gap: 50px;
+    height:90px;
+    justify-content: center;
+    position: absolute;
+ left:50%;
+transform: translate(-50%);
+top: 560px;
+}
+
+.Contact button{
+    background-color: aquamarine;
+    font-size: 15px;
+    margin: 20px;
+    padding: 0px 5px;
+}
+
+.Contact input{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.ICO{
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+   justify-content: center;
+   display: flex;
+   gap: 30px;
+}
+
+.list{
+    display: flex;
+    gap: 10px;
+}
+
+.list-1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.img{
+    display: flex;
+   gap: 25px;
+}
+
+.services{
+    background-color: goldenrod;
+    margin: 50px;
+    height: 570px;
+    text-align: center;
+}
+
+.box-wrapper{
+   position: absolute;
+   left: 50%;
+   top: 1200px;
+   text-align: center;
+   padding: 10px;
+   background-color: white;
+   width: 1000px;
+   transform: translate(-50%);
+}
+
+.Advisory{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    left: 50%;
+   top: 1150px;
+   width: 1100px;
+   transform: translate(-50%);
+
+}
+
+.boxes{
+ display: flex;
+ gap: 20px;
+}
+
+.box-1{
+   width: 300px;
+   background-color: blue; 
+  text-align: center;
+
+}
+
+.box-2{
+    width: 300px;
+    background-color: blue;  
+    text-align: center;
+
+}
+
+.box-3{
+    width: 300px; 
+    background-color: blue; 
+    text-align: center;
+}
+
+.list-2{
+    display: flex;
+   justify-content: center;
+    gap: 50px;
+    
+}
+
+
+
+.list-1 img{
+    width: 40px;
+}
+
+.box{
+    background-color: blue;
+  width: 100px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    height: 200px;
+    padding: 90px;
+}
+
+.Time-page{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Advice{
+    background-color: blue;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.Advice h1{
+    transform: rotate(-90deg);
+    margin-top: 170px;
+}
+
+.time-wrapper{
+    display: flex;
+    gap: 30px;
+}
+
+.days{
+    border: 1px solid black;
+    width: 80px;
+    height: 120px;
+    text-align: center;
+}
+
+.days h1{
+    color: blue;
+}
+
+.hours{
+    border: 1px solid black;
+    width: 80px;
+    height: 120px;
+    text-align: center; 
+}
+
+.seconds{
+    border: 1px solid black;
+    width: 80px;
+    height: 120px;
+    text-align: center; 
+}
+
+.seconds h1{
+     color: blue;
+}
+
+.minutes{
+    border: 1px solid black;
+    width: 80px;
+    height: 120px;
+    text-align: center; 
+}
+
+.minutes h1{
+    color: blue;
+}
+
+.hours h1{
+    color: blue;
+}
+
+.inputs input{
+    font-size: 20px;
+}
+
+.inputs button{
+    background-color: aqua;
+    color: white;
+    padding: 5px 10px;
+ margin-left: 20px;
+}
+
+.Crypto{
+    background-color: blue;
+margin: 20px;
+padding: 20px 70px;
+display: flex;
+gap: 150px;
+color: white;
+}
+.Crypto img{
+    width: 500px;
+}
+
+.Crypto button{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pricing{
+    text-align: center;
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.pricing img {
+    width: 80px;
+}
+
+.pricing button{
+   border: 2px solid white ;
+   text-transform:capitalize;
+   margin-top: 20px;
+ color: black;
+   padding: 10px;   
+}
+
+.border{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.price-1{
+    text-align: center;
+    border: 2px solid whitesmoke;
+    width: 200px;
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.price-2{
+    text-align: center;
+    border: 2px solid whitesmoke;
+    width: 200px;
+    font-size: 25px;
+    background-color: blue;
+    
+}
+
+.price-3{
+    text-align: center;
+    border: 2px solid whitesmoke;
+    width: 200px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.Video{
+   text-align: center;
+}
+
+.videos{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    gap: 20px;
+    background-color: darkslategray;
+}
+
+.Videos{
+    background-color: cadetblue;
+    padding: 10px;
+    height: 50px;
+}
+
+.playlist{
+    display: flex;
+    margin-left: 620px; 
+    margin-bottom: 30px; 
+}
+.videos img {
+    width: 25px;   
+}
+
+.Widgets{
+    display: flex;
+}
+
+.youtube{
+    border: 2px solid black;
+    background-color:black;
+    color: white;
+    font-size: 55px;
+    padding: 50px;
+   margin-left: 300px;
+   margin-bottom: 30px; 
+    width: 700px;
+    
+    text-align: center;
+}
+
+.Lessons-page{
+    background-color:cadetblue;
+    border: 2px solid black;
+    width: 400px;
+    padding: 10px;
+    height: 407px;
+}
+
+ol img{
+    width: 130px;
+}
+
+.Lessons{
+    display: flex;
+    gap: 10px;
+}
+
+.connect{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.logos img{
+    margin-top: 13ijn px;
+    width: 400px;
+}
+
+.conference{
+    border: 2px ;
+}

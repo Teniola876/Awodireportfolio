@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: darkcyan;
+    align-items: baseline;
+    
+}
+
+.todo{
+    text-align: center;
+    color:burlywood;
+    padding: 15px;
+}
+
+.todo:hover {
+    color: green;
+}
+
+.to-do input{
+    padding: 10px;
+    color: chocolate;
+    border: 2px solid burlywood ;
+
+}
+
+.to-do button{
+    border: 2px solid burlywood ;
+    color: crimson;
+    border-radius: 40px;
+    padding: 10px 4px;
+}
+
+.to-do button:hover{
+   color: gold;
+}
+
+#lists ul li{
+  margin: 30px;
+  padding: 10px;
+   font-size: 25px;
+   background: blue ;
+  border: 2px solid  burlywood ;
+    
+}
+
+#lists ul li:hover {
+    color: yellow;
+}

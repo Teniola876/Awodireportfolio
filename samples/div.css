@@ -1,0 +1,14 @@
+.places{
+   background-color:red;
+    margin: auto;
+}
+
+.location{
+    background-color: yellow;
+    height: 500px;
+}
+.located{
+    background-color: blue;
+    width: 50%;
+}
+

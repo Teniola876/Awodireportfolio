@@ -1,0 +1,269 @@
+
+body{
+    max-width: 1400px;
+margin: 0 auto;
+/* border: 2px solid red; */
+
+}
+
+.header-wrap{
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-wrap h2{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.first-section{
+    max-width: 100%;
+    display: flex;
+}
+
+.first-secton-left img{
+    width: 600px;
+}
+
+.date-box{
+    display:flex;
+    justify-content: space-between;
+}
+
+.date-box h4{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+.first-section-right{
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 500px;
+    padding: 35px;
+}
+
+.first-section-right button{
+text-transform: uppercase;
+color: white;
+background-color: black;
+border: 1px solid white;
+outline: none;
+padding: 10px 20px;
+margin-top: 40px;
+}
+
+.second-section{
+    max-width: 100%;
+}
+
+.second-section-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section h2{
+    text-transform: uppercase;
+} 
+
+.second-section-box{
+    width: 600px;
+}
+
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.third-section-box{
+    width:400px;
+}
+
+.bottom button{
+    text-transform: uppercase;
+    border-color: white;
+    margin: 25px;
+   padding: 15px 25px ;
+outline: none;
+border: 1px solid white;
+background-color: black;
+ color: white;
+}
+
+.bottom{
+    text-align: center;
+padding: 10px;
+}
+
+.fourth-section{
+ max-width: 100%;
+ justify-content: center;
+ display: flex;
+ gap: 0px; 
+}
+
+.fourth-section-left{
+    width: 600px;
+}
+
+ .fourth-section-left img{
+width: 100%;
+} 
+
+.fourth-section-right{
+    background-color: black;
+    width: 600px;
+    padding: 20px;
+}
+
+.date{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.date button{
+    margin-top: 40px;
+    text-transform: uppercase;
+    border: 1px solid white;
+background-color: black;
+padding: 25px;
+color: white;
+}
+.bottom-wrap{
+    max-width: 100%;
+    padding: 20px;
+    margin: 20px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+}
+.bottom-wrap p{
+    margin-top: 50px;
+    color: rebeccapurple;
+} 
+
+/* @media screen and ( max-width:1000px) {
+    .header-wrap h2 {
+font-size: 30px;
+    }
+.first-section,
+.second-section-wrap,
+.third-section,
+.fourth-section {
+flex-direction: column;
+align-items: center;
+}
+.header-wrap{
+    flex-direction: column;
+}
+}
+  .first-section img,
+.first-section-right,
+.first-section-left,
+.second-section-box,
+.fourth-section,
+.second-section-img-box{
+width: 100%;
+}
+
+@media screen and ( max-width:750px) {
+    .header-wrap h2 {
+font-size: 30px;
+    }
+.first-section,
+.second-section-wrap,
+.third-section,
+.fourth-section {
+flex-direction: column;
+align-items: center;
+width: 700px;
+}
+.header-wrap{
+    flex-direction: column;
+}
+}
+  .first-section img,
+.first-section-right,
+.first-section-left,
+.second-section-box,
+.fourth-section,
+.second-section-img-box{
+width: 700px;
+}
+
+
+
+  @media screen and ( max-width:420px) {
+    .first-section-black-box h2{
+        margin: 30px 0;
+        font-size: 30px;
+    }
+
+    .first-section-black-box p{
+        font-size: 20px;
+    }
+
+    .first-section-black-box button {
+font-size: 10px;
+margin-top: 50px;
+    }
+    .date-box{
+        flex-direction: column;
+    }
+    .first-section-left,
+    .second-section-box,
+    .second-section-wrap,
+    .second-section-img-box,
+    .fourth-section-left,
+    .header-wrap {
+        width: 400px;
+        align-items: center;
+        
+    }
+    
+    .fourth-section-right{
+        width: 370px;
+    }
+    .first-section-left img,
+    .second-section img,
+    .fourth-section,
+    .first-section-right
+    {
+       max-width: 100%; 
+    }
+     
+
+ @media screen and ( max-width:375px) {
+    .first-section-left,
+    .first-section-right,
+    .second-section-box,
+    .second-section-img-box,
+    .fourth-section-left,
+    .header-wrap {
+        width: 300px;
+        align-items: center;
+        
+    }
+    .fourth-section-right
+    {
+        width: 300px;
+    }
+    .date-box{
+        flex-direction: column;
+    }
+    .first-section-left img,
+    .second-section-wrap img
+    {
+        width:100%;
+    }
+} 
+  } */

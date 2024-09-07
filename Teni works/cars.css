@@ -1,0 +1,270 @@
+body{
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+header{
+    display: flex;
+ position: relative;
+    justify-content: space-between;
+}
+
+.Top{
+    background-color: bisque;
+}
+
+header h1{
+    margin: 12px 0;
+    color:black
+}
+
+.logo{
+    margin-top: 22px;
+}
+
+.logo:hover + input{
+    display: block;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+}
+
+input{
+    font-size: 30px;
+    width:80%;
+    margin: 0px 170px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    display:none;
+}
+
+.top-info{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-info img{
+    width: 80%;
+}
+
+.top-info p{
+    font-size: 30px;
+}
+
+.top-info h1{
+    font-size: 70px;
+    color: black;
+}
+
+.top-info button{
+background-color:red;
+padding: 10px;
+font-size: 17px;
+color: white;
+margin: 20px;
+}
+
+.about{
+    text-align: center;
+}
+
+.about h1{
+    font-size: 40px;
+}
+
+.about p{
+    font-size: 22px;
+}
+
+.about h2{
+    font-size: 20px;
+}
+
+.cars{
+ text-align: center;
+ margin: 80px 0;
+}
+
+.cars button{
+    padding: 10px;
+    font-size: 20px;
+  
+}
+
+.cars img{
+    border-radius: 16px;
+}
+
+.cars-2{
+    text-align: center;
+}
+
+.cars-2 button{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.cars-2 img{
+    border-radius: 12px;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 40px;
+    
+}
+
+.about-us h3{
+    font-size: 35px;
+    margin: 0 auto;
+}
+
+.about-us p{
+    font-size: 25px;
+}  
+
+
+.about-us h1{
+    font-size: 30px;
+    margin: 10px auto;
+    color: red;
+}
+
+.about-us img{
+    max-width: 700px;
+
+}
+.about-us button{
+background-color:red;
+padding: 10px;
+font-size: 17px;
+color: white;
+}
+
+.parts{
+    text-align: center;
+}
+
+.parts h1{
+    color: red;
+    font-size: 30px;
+}
+
+.parts h3{
+    font-size: 30px;
+    text-transform:capitalize ;
+}
+
+.parts p{
+    font-size: 25px;
+}
+
+
+.part h3{
+    font-size: 19px;
+}
+
+.part h2{
+    color: red;
+}
+
+.part img{
+    max-width: 300px;
+}
+
+.part{
+display: flex;
+gap: 35px;
+align-items: center;
+justify-content: center;
+
+}
+
+.part button{
+background-color: red;
+color: white;
+padding: 8px;
+font-size: 15px;
+}
+
+
+.button-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog{
+    text-align: center;
+}
+
+.car p{
+    font-size: 24px;
+}
+
+.car{
+    
+   display: flex;
+   gap: 40px;
+   max-width: 95%;
+}
+
+.blog p{
+    font-size: 20px;
+}
+
+.blog h1{
+    color: red;
+}
+
+.bottom{
+    background-color: black;
+    max-width: 95%;
+    margin: 20px;
+    color: white;
+}
+
+footer{
+margin: 90px;
+display: flex;
+justify-content: space-between;
+}
+
+.all{
+    color: red;
+    text-align: center;
+}
+
+@media screen and (max-width:850px) {
+header {
+    flex-wrap: wrap;
+}
+.about-us{
+    flex-direction: column;
+}
+.about{
+    flex-direction: column;
+}
+.top{
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+.part{
+    flex-direction: column;
+}
+.bottom{
+    flex-direction:column ;
+}
+.car {
+  flex-direction: column;  
+
+}
+}
+
+
